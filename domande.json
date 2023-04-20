@@ -1,0 +1,53 @@
+[
+    {
+        "type": "VF",
+        "q": "I Cookie sono usati per tracciare l'attività degli utenti sul web",
+        "ans": true
+    },
+    {
+        "type": "VF",
+        "q": "I Cookie persistenti sono elininati quando si chiude il browser",
+        "ans": false
+    },
+    {
+        "type": "MC",
+        "q": "Quale di queste frasi riguardanti i Cookie è vera?",
+        "opts": [
+            "I Cookie non sono importanti per la navigazione web",
+            "I Cookie possono indentificare personalmente un individuo",
+            "I Cookie permettono ai proprietari dei siti web di identificare utenti malevoli e bot",
+            "I Cookie possono compromettere la cybersecurity"
+        ],
+        "ans": "C"
+    },
+    {
+        "type": "MC",
+        "q": "Cos'è il GDPR",
+        "opts": [
+            "Una legge che regola la velocità di connessione in Italia",
+            "Una legge sulla protezione dati in vigore nell'Unione Europea",
+            "Una legge che limita l'uso dei social media"
+        ],
+        "ans": "B"
+    },
+    {
+        "type": "MC",
+        "q": "Chi deve rispettare il GDPR?",
+        "opts": [
+            "Solo le organizzazioni EU",
+            "Le organizzazioni che trattano dati personali di residenti esteri (non EU)",
+            "Qualsiasi organizzazione che tratti dati personali di residenti EU, indipendentemente dalla loro sede"
+        ],
+        "ans": "C"
+    },
+    {
+        "type": "VF",
+        "q": "E' importante assicurarsi che i dati personali medici siano trattati rispettando il GDPR e le leggi nazionali sulla privacy?",
+        "ans": true
+    },
+    {
+        "type": "VF",
+        "q": "I dati medici possono essere utilizzati per scopi di ricerca, dopo averli anonimizzati",
+        "ans": true
+    }
+]

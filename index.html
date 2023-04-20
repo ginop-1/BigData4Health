@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BigData 4 Health</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/initial_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/swup@3"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/change_page.js"></script>
+
+    <main id="swup" class="transition-fade">
+        <div id="cookie-notice" class="light display-right">
+            <div id="closeIcon" style="display: none;"></div>
+
+            <div class="title-wrap">
+                <h4>Cookie Consent</h4>
+            </div>
+
+            <div class="content-wrap">
+                <div class="msg-wrap">
+                    <p>This website uses cookies or similar technologies, to enhance your browsing experience and
+                        provide
+                        personalized recommendations. By continuing to use our website, you agree to our <a
+                            style="color:#115cfa;" href="">Privacy Policy</a></p>
+                    <div class="btn-wrap">
+                        <button class="btn-primary" onclick="acceptCookieConsent();">Accept</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie Consent by PrivacyPolicies.com https://www.PrivacyPolicies.com -->
+        <script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/4.1.0/cookie-consent.js"
+            charset="UTF-8"></script>
+        <script type="text/javascript" charset="UTF-8">
+            document.addEventListener('DOMContentLoaded', function () {
+                cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "dark", "language": "en", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "Big Data 4 health Project" });
+            });
+        </script>
+
+        <!-- Create a red rectangle warning user about cookies -->
+        <div class="warning-rectangle">
+            <h1>Warning: this website uses cookies</h1>
+            <p>Click <a href="cookies_explained.html">here</a> to find out more!</p>
+        </div>
+
+        <div class="big-alert">
+            <h1></h1>
+        </div>
+
+        <div class="cookies-banner">
+            By clicking ”OK”, you agree to the storing of cookies on your device to
+            enhance site navigation, analyze site usage, and improve marketing.
+            <span style="white-space: pre-line"></span>
+            <button onclick="close_cookie_banner()">Accept</button>
+        </div>
+
+        <div class="cookie-footer">
+            <p>
+                We use cookies in this website to give you the best experience on our
+                site and show you relevant ads. To find out more, read our
+                <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+            </p>
+            <button class="cookie-btn" onclick="close_cookie_footer()">
+                Okay
+            </button>
+        </div>
+    </main    rnlellll      
