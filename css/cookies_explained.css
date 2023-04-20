@@ -1,0 +1,49 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    /* blue-white gradient background */
+    background: linear-gradient(to right, #5fa9cc 0%, #e6f7ff 100%);
+}
+
+div.section {
+    transition: 1s;
+}
+
+div.section:hover {
+    transform: scale(1.1);
+}
+
+h1.title {
+    /* padding top and bottom */
+    padding: 1rem 0 1rem 0;
+    font-weight: bold;
+}
+
+.float-right {
+    text-align: right;
+}
+
+.lead {
+    text-align: justify;
+}
+
+img {
+    margin: 0 3rem 0 3rem;
+}
+
+img.left {
+    margin-left: 2.5rem;
+}
+
+img.right {
+    margin-right: 2rem;
+}
+
+img.up {
+    margin-bottom: 2rem;
+}
+
+.list-group-item:hover {
+    background-color: hsla(211, 100%, 50%, 0.137);
+}
